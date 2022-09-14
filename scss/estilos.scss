@@ -94,7 +94,7 @@ $coloresFondo: (
 /*BANNER*/
 
 #banner {
-  background-image: url(../imagenes/mujerlectora6.jpg);
+  background-image: url(../assets/img/niñosencesped.jpg);
   background-size: cover;
   padding-top: 70px;
   min-height: 400px;
@@ -148,15 +148,18 @@ $coloresFondo: (
   }
 }
 
-// NOSOTROS
+// SOBRE MI
 
-#nosotros {
+#sobremi {
   margin-top: $margen/2;
   animation: aparecer 1s ease-in-out;
+  text-align: center;
+  font-family: $font;
+  line-height: 1.5
 
   img {
-    margin-bottom: 20px;
-    margin-right: 40px;
+    margin-bottom: 80px;
+    margin-right: 40px
   }
 
   @keyframes aparecer {
@@ -178,6 +181,7 @@ $coloresFondo: (
 
   .card-body {
     background-color: #6d8c9a;
+    
 
     .texto {
       color: #fff;
@@ -214,9 +218,7 @@ $coloresFondo: (
 // FAQ
 
 .faq {
-  background-image: url(../imagenes/mujerlectora2.jpg);
-  padding-top: 100px;
-
+  padding-top: 500px;
   li {
     padding: 20px;
     list-style-position: outside;
@@ -237,7 +239,7 @@ $coloresFondo: (
   }
 }
 
-// SUSCRIPCIÓN
+// CONTACTO
 
 #contacto {
   margin-top: 50px;
@@ -300,19 +302,17 @@ footer {
     line-height: 2;
   }
     .bi-facebook {
-       @include redes ($fb);
+      @include redes ($fb);
     }
- 
+
     .bi-instagram {
-      @include redes ($insta);
-   }
-   
+      @include redes ($insta); }
+
   
     
     .bi-whatsapp {
       @include redes ($wp);
     }
-   
     
 }
 

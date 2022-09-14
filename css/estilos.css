@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .menu {
   background-color: #6d8c9a;
   min-height: 50px; }
@@ -15,7 +16,7 @@
 
 /*BANNER*/
 #banner {
-  background-image: url(../imagenes/mujerlectora6.jpg);
+  background-image: url(../assets/img/niñosencesped.jpg);
   background-size: cover;
   padding-top: 70px;
   min-height: 400px;
@@ -51,12 +52,14 @@
     font-family: "Roboto", sans-serif;
     line-height: 1.5; }
 
-#nosotros {
-  margin-top: 100px;
-  animation: aparecer 1s ease-in-out; }
-  #nosotros img {
-    margin-bottom: 20px;
-    margin-right: 40px; }
+#sobremi {
+  margin-top: 150px;
+  animation: aparecer 1s ease-in-out;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5 img;
+    line-height-margin-bottom: 80px;
+    line-height-margin-right: 40px; }
 
 @keyframes aparecer {
   0% {
@@ -84,8 +87,7 @@
   margin-left: 25px; }
 
 .faq {
-  background-image: url(../imagenes/mujerlectora2.jpg);
-  padding-top: 100px; }
+  padding-top: 500px; }
   .faq li {
     padding: 20px;
     list-style-position: outside;
