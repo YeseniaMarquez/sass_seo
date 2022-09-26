@@ -68,8 +68,8 @@
     opacity: 1; } }
 
 #servicios, #libros {
-  margin-top: 40px;
-  margin-top: 80px; }
+  margin-top: 150px;
+}
   #servicios .card-body, #libros .card-body {
     background-color: #6d8c9a; }
     #servicios .card-body .texto, #libros .card-body .texto, #servicios .card-body h4, #servicios #libros .card-body h4, #libros #servicios .card-body h4, #libros .card-body h4, #servicios .card-body p, #servicios #libros .card-body p, #libros #servicios .card-body p, #libros .card-body p {
@@ -86,8 +86,9 @@
 #carouselExampleInterval {
   margin-left: 25px; }
 
-.faq {
-  padding-top: 500px; }
+.faq {  
+  margin-top: 150px;
+}
   .faq li {
     padding: 20px;
     list-style-position: outside;
@@ -103,8 +104,7 @@
     animation: aparecer 1s ease-in-out; }
 
 #contacto {
-  margin-top: 50px;
-  animation: aparecer 1s ease-in-out;
+  margin-top: 150px;
   padding-bottom: 70px;
   padding-top: 80px;
   background-color: #90bccf; }
@@ -139,7 +139,7 @@ footer {
   width: 100%;
   background: #6d8c9a;
   height: 100px;
-  margin-top: 0px;
+  margin-top: 50px;
   display: flex;
   justify-content: center; }
 

@@ -152,7 +152,6 @@ $coloresFondo: (
 
 #sobremi {
   margin-top: $margen/2;
-  animation: aparecer 1s ease-in-out;
   text-align: center;
   font-family: $font;
   line-height: 1.5
@@ -173,11 +172,19 @@ $coloresFondo: (
   }
 }
 
+
+
 // SERVICIOS_CARDS
 
 #servicios {
   margin-top: 40px;
   margin-top: 80px;
+
+  .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .card-body {
     background-color: #6d8c9a;
@@ -203,7 +210,7 @@ $coloresFondo: (
 // LIBROS
 
 #libros {
- @extend #servicios;
+@extend #servicios;
 
   h3 {
     font-family: "Roboto", sans-serif;
@@ -314,6 +321,19 @@ footer {
       @include redes ($wp);
     }
     
+}
+.coppyright {
+  color: #333;
+  text-align: center;
+  margin: 0 0 10px;
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 }
 
 .navbar-toggler-icon {
